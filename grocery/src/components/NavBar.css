@@ -1,0 +1,48 @@
+.navbar {
+    background-color: white;
+}
+.MenuItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    float: right;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.navbar ul { 
+    text-decoration: none !important;
+    list-style-type: none;   
+}
+
+li a { 
+    text-decoration: none !important;
+    background-color: white ;
+    list-style: none; 
+    padding: 5px 5px;  
+} 
+
+ 
+
+.active {
+    background: black;
+    color: white;
+    border-radius: 2rem;
+    /* display: inline-block; */
+
+
+}
+
+/* ul li:active,li:visited{ 
+    list-style: none;
+    color: white  !important;
+    background-color: red !important;
+  
+    text-decoration: underline;
+    
+} */
+
+/* .activeLink {
+    background-color: brown;
+} */
+
